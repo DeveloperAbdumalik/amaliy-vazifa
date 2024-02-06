@@ -58,7 +58,7 @@ else
 
 
 
-System.Console.WriteLine("Hafta kunlari:");
+/*System.Console.WriteLine("Hafta kunlari:");
 System.Console.Write("Hafta kunini kiriting: ");
 string str = Console.ReadLine();
 string day = str.ToLower();
@@ -81,4 +81,41 @@ switch(day)
     default:
         System.Console.WriteLine("Bunaqa hafta kuni yuq:");
         break;
+}*/
+
+
+
+
+/*int sum = 0;
+int i = 1;
+while(i<1000)
+{
+    sum+=i;
+    i+=2;
 }
+System.Console.WriteLine(sum);*/
+
+
+
+
+/*int[] ar = {234,56,676,4,2,67,86,89};
+int max = ar[0];
+int min = ar[0];
+for(int i = 0; i < ar.Length; i++)
+{
+   if(max<=ar[i]) max = ar[i];
+   if(min>=ar[i]) min = ar[i];
+}
+System.Console.WriteLine(max*min);*/
+
+
+
+
+System.Console.Write("Butun musbat son kiriting: ");
+int x = Convert.ToInt32(Console.ReadLine());
+int xf = 1;
+for(int i = 1; i <= x; i++)
+{
+    xf = xf *i;
+}
+System.Console.WriteLine(xf);
